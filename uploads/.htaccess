@@ -1,0 +1,4 @@
+# Evitar listar contenido y ejecutar scripts dentro de /uploads
+Options -Indexes
+php_flag engine off
+AddType text/plain .php .php3 .phtml .phar

@@ -1,0 +1,19 @@
+# Ignorar semillero de admin (no subir a GitHub)
+seed_admin.php
+
+# Ignorar cualquier otro archivo de seeds
+*_seed.php
+*_seed_*.php
+
+# Ignorar configuraciones locales
+/config/config.local.php
+
+# Ignorar archivos temporales
+uploads/*
+!uploads/.htaccess
+
+# Ignorar cachés de sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

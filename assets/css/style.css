@@ -1,0 +1,95 @@
+/* Ajustes suaves encima de Bootstrap */
+body {
+  background: #f7f9fc;
+}
+
+/* Espaciado consistente en formularios “simple” (sin Bootstrap) */
+form[method="post"] label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+form[method="post"] input[type="email"],
+form[method="post"] input[type="password"] {
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+
+/* Tarjetas simples (si las usas) */
+.card-lite {
+  background: #fff;
+  border: 1px solid #e8eef3;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(20, 25, 30, 0.04);
+  padding: 1rem;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* ==== ESTILOS GLOBALES DE UNIFORMIDAD ==== */
+
+/* Tablas principales */
+.table {
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.table th {
+  background: #f8f9fa;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* Espaciado uniforme entre botones en tablas (Acciones) */
+td .btn {
+  margin-right: 0.25rem;
+}
+
+td .btn:last-child {
+  margin-right: 0;
+}
+
+/* Estilo para celdas vacías de acciones */
+td .text-muted {
+  font-style: italic;
+  color: #999 !important;
+}
+
+/* Alerts (ya las usas para flash) */
+.alert {
+  border-radius: 0.375rem;
+  padding: 0.6rem 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Breadcrumbs más compactos */
+.breadcrumb {
+  margin-bottom: 1rem;
+  background: transparent;
+  padding: 0;
+}
+
+/* Cards uniformes */
+.card {
+  border-radius: 0.5rem;
+  border: 1px solid #e0e6ed;
+}
+
+.card-header {
+  background: #f8f9fa;
+  font-weight: 500;
+}
+
+/* Ajustes generales */
+body {
+  background: #f7f9fc;
+  font-size: 15px;
+}
